@@ -1,25 +1,71 @@
 /* definition of paragraph styles */
 
+h1{
+    color: #ffffff9c;
+}
+
 p {
-    color: darkgreen;
+    color: #ffffff9c;
 }
 
 /* definition of body styles */
 body{
-    background: lightblue;
-    text-decoration: dotted;
+    background: #E4E3E3;
+    font-family: "Arial";
+    color: #ffffff9c;
 }
+
+
+#DateEntry{
+    color: #3b6978;
+}
+
+#banner{
+    background-color: #84a9ac;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    border-color: green;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+#menuBar{
+    background-color: #204051;
+    margin: 0px;
+    padding: 1px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#footer{
+    background-attachment: absolute;
+    bottom: 0;
+    left: 20;
+    padding: 2px;
+    background-color: #3b6978;
+}
+
+.menuBarText{
+    color: #ffffff9c;
+}
+
+.table{
+    display: flex;
+    flex-direction: row;
+}
+
+.tableItem{
+    flex: .15;
+    width: 75px;
+    height: 75px;
+    margin: 1px;
+    background-color: lightgray;
+}
+
+
 
 /* # symbol is used for items with unique id */
-#DateEntry{
-    color: red;
-}
-
-
 /* . symbol is used for reusable classes */
-#banner{
-    background-color: orange;
-    padding: 10px;
-    margin: 50px;
-    text-align: center;
-}
