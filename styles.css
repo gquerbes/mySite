@@ -1,0 +1,25 @@
+/* definition of paragraph styles */
+
+p {
+    color: darkgreen;
+}
+
+/* definition of body styles */
+body{
+    background: lightblue;
+    text-decoration: dotted;
+}
+
+/* # symbol is used for items with unique id */
+#DateEntry{
+    color: red;
+}
+
+
+/* . symbol is used for reusable classes */
+#banner{
+    background-color: orange;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+}

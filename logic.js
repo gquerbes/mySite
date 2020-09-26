@@ -1,0 +1,1 @@
+document.getElementById("banner").innerHTML += `<h4 id=DateEntry class=Custom> Today is ${new Date().toLocaleDateString()}</h4>`
