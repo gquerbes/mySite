@@ -4,6 +4,10 @@ h1{
     color: #ffffff9c;
 }
 
+h4{
+    color: black;
+}
+
 p {
     color: #ffffff9c;
 }
@@ -32,7 +36,6 @@ body{
 
 #menuBar{
     background-color: #204051;
-    margin: 0px;
     padding: 1px;
     position: sticky;
     width: 100%;
@@ -41,10 +44,11 @@ body{
 }
 
 #footer{
-    background-attachment: absolute;
+    position: static;
+    width: 100%;
+    padding: 1px;
     bottom: 0;
-    left: 20;
-    padding: 2px;
+    left: 0;
     background-color: #3b6978;
 }
 
@@ -53,16 +57,28 @@ body{
 }
 
 .table{
-    display: flex;
-    flex-direction: row;
+    margin: auto;
+    width: 75%;
+    height: 500px;
+    border-style: dashed;
+    border-color: red;
+    border-width: 1px;
 }
 
 .tableItem{
-    flex: .15;
-    width: 75px;
-    height: 75px;
-    margin: 1px;
-    background-color: lightgray;
+    padding-top: 5%;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 25px;
+    float: left;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style: dashed;
+    border-color: red;
+    border-width: 1px;
 }
 
 
