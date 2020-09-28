@@ -21,7 +21,7 @@ function addItemsToGrid(value, index, array){
     var div = document.createElement('div');
     div.className = "tableItem";
     div.appendChild(getImageForItem(value));
-    div.innerHTML += `<h4>item: ${value.name}</h4>`;
+    div.innerHTML += `<h4>${value.name}</h4>`;
     document.getElementById("itemTable").appendChild(div);
 }
 
@@ -29,7 +29,7 @@ function getImageForItem(value){
     var link = document.createElement('a');
     var image = document.createElement('img')
     image.src = value.imgUrl;
-    image.style="width:70px;";
+    image.style="height:70px;";
     link.href = value.url;
     link.appendChild(image);
     return link;
